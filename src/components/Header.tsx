@@ -6,7 +6,8 @@ import { BiSolidHome } from "react-icons/bi";
 
 export default function Header() {
   return (
-    <div className='flex items-center justify-between max-w-6xl mx-4 xl:mx-auto'>
+    <div className='shadow-sm border-b sticky top-0 bg-white z-30'>
+        <div className='flex items-center justify-between max-w-6xl mx-4 xl:mx-auto'>
         <div className='h-24 w-24 relative hidden lg:inline-grid'>
             <Image 
             alt='texto instagram'
@@ -44,5 +45,7 @@ export default function Header() {
         alt="Heitor avatar" className='rounded-full h-10 cursor-pointer' />
        </div>
     </div>
+    </div>
+    
   )
 }
