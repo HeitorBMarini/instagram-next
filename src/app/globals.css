@@ -10,3 +10,10 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+/* Adiciona este CSS no seu arquivo de estilos */
+.flex-1:focus {
+    border: none;
+    outline: none;
+  }
+  
